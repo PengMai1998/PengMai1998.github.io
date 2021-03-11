@@ -57,6 +57,7 @@
 
 #menu{
     position: absolute;
+	z-index: 99999;
 }
 
 #menu > li:hover, .drop-content {
@@ -64,8 +65,6 @@
 }
 
 #menu li ul{
-	position:relative;
-	z-index: 99999;
     background-color: FFF;
     margin: 1px;
 	border-width:1px;
@@ -283,9 +282,9 @@ ul, li {
 }
 
 .article_content {
-    padding-top: 20px;
-    font-size: 16px;
-    line-height: 180%;
+	padding-top: 20px;
+	font-size: 16px;
+	line-height: 180%;
 }
 
 .leftpath {
@@ -306,10 +305,30 @@ ul, li {
         line-height: 40px;
         font-size: 18px;
         padding-left: 10px;
+		background-image:url(../images/arr_1.png);
+		background-repeat:no-repeat;
+		background-position:right;
+    }
+	
+	.leftpath .col-menu ul li ul{
+		display:none;
+	}
+	
+	    .leftpath .col-menu ul li ul li{
+		color: red;
+        line-height: 30px;
+        font-size: 14px;
+        padding-left: 20px;
+		background:#f8f8f8;
+    }
+	
+	.doubleweekFa{
+		color: red;
     }
 
 .menuselected {
-    background: #f8f8f8;
+	background-image:none;
+    background-color: #f8f8f8;
     border-bottom: 2px solid #3089c1;
     line-height: 40px;
     font-size: 18px;
@@ -317,8 +336,18 @@ ul, li {
 }
 
 .contentMain {
-    background: url("../images/hang.png") right 20px no-repeat;
     padding-bottom: 40px;
+}
+
+.blank{
+	height:3px;
+}
+.blank1{
+	height:100px;
+}
+
+.blank2{
+	height:500px;
 }
 
 .list-1 li {
