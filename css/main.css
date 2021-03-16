@@ -315,15 +315,14 @@ ul, li {
 	}
 	
 	    .leftpath .col-menu ul li ul li{
-		color: red;
+		color: black;
         line-height: 30px;
         font-size: 14px;
         padding-left: 20px;
 		background:#f8f8f8;
     }
-	
 	.doubleweekFa{
-		color: red;
+		color: black;
     }
 
 .menuselected {
@@ -376,4 +375,48 @@ ul, li {
 
 .list-2 li a{
     font-size:16px;
+}
+
+.article_content ul{
+	padding-left:20px;
+}
+
+.article_content ul li{
+	font-size:16px;
+	margin-top:10px;
+	list-style:square;
+	padding-bottom:6px;
+}
+
+.article_content ul li p:not(.imagetext){
+	font-weight:bold;
+	color:#069;
+}
+
+.article_content p{
+	font-size:17px;
+	margin-top:5px;
+	font-weight:none;
+}
+
+.article_content ul li ul li{
+	font-size:16px;
+	margin-bottom:0px;
+	list-style:circle;
+}
+
+.article_content .study_sm{
+	width:90%;
+}
+
+.imagetext{
+	font-weight:none;
+	color:#000;
+	text-align:center;
+	font-size:16px;
+	font-style:italic;
+}
+
+.disciplines li{
+	color:#006;
 }
