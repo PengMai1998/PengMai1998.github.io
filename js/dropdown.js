@@ -12,6 +12,7 @@ function dropMenuup(){
 	}
 }*/
 
+
 var annualwork = new Array();
 /*annualwork[0] = "";
 annualwork[1] = "";
@@ -2658,7 +2659,12 @@ git[1] = "具体工具";
 		//!结束编辑内容
 		$(".article_content").append(appendIframe);
 	});
+
+//轮播设置
+	$("#newsCarousel").carousel('cycle');
+	
 });
+
 
 /*$(document).ready(function(){
   $("#menu").children("ul").get;
